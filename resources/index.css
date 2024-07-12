@@ -32,7 +32,11 @@ p {
 	margin: 0;
 }
 
+html {
 
+	scroll-padding-top: 120px;
+	scroll-behavior: smooth;
+}
 
 
 /*========================================================= 2. NAV SECTION ==================================================================*/
@@ -254,6 +258,12 @@ width: min(90%, 70.5rem);
 
 }
 
+#container1 {
+	margin-inline : auto;
+	width: min(90%, 70.5rem);
+	
+	}
+
 .grid-container {
     display: grid;
     width: 100%;
@@ -273,27 +283,27 @@ width: min(90%, 70.5rem);
 
 /*============================================================== 6. SERVICE SECTION =======================================================*/
 
-.service {
+#about {
 background-color: #ece2e2e0;
 }
 
-.service img {
+#about img {
 display: block;
 max-width: 100%;
 }
 
-.service .container {
+#about .container {
 text-align: center;
 }
 
-.service h2, p {
+#about h2, p {
 text-align: center;
 padding-bottom: 1.2rem;
 
 
 }
 
-.service h2 {
+#about h2 {
 font-weight: 300;
 font-family: Square Peg;
 font-size: 3rem;
@@ -302,12 +312,12 @@ font-size: 3rem;
 
 /*============================================================ 7. BLOG SECTION ===========================================================*/
 
-.blog img {
+#blog img {
 	display: block;
 	max-width: 100%;
 }
 
-.blog h1 {
+#blog h1 {
 	font-family: square peg;
 	font-weight: 300;
 	font-size: 3rem;
@@ -320,7 +330,7 @@ font-size: 3rem;
 }
 
 
-.blog h3 {
+#blog h3 {
 font-family: Montserrat;
 font-weight: 300;
 font-size: 1.1rem;
@@ -331,20 +341,20 @@ text-align: center;
 
 }
 
-.blog li {
+#blog li {
 
 	text-align: center;
 
 }
 
-.blog button li {
+#blog button li {
 	list-style: none;
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
 	
 }
 
-.blog button li a {
+#blog button li a {
 	background-color: rgb(226, 38, 132);
 	opacity: 0.9;
 	transition: 0.3s;
@@ -360,7 +370,7 @@ text-align: center;
 	cursor: pointer;
 }
 
-.blog button li a:hover {
+#blog button li a:hover {
 	background-color: rgb(15, 235, 216);
 	color: rgb(15, 15, 15);
 	border: solid 0.20rem rgba(240, 231, 231, .3);
@@ -372,23 +382,23 @@ text-align: center;
 
 /*============================================================ 8. FASHION WEEK SECTION ===================================================*/
 
-#fashion-week .container {
+#press-media .container {
 text-align: center;
 }
 
-#fashion-week img {
+#press-media img {
 display: block;
 max-width: 100%;
 }
 
-#fashion-week {
+#press-media {
 background-color: #ad9759;
 color:rgb(22, 21, 21);
 }
 
 
 
-#fashion-week h2 {
+#press-media h2 {
 text-align: center;
 text-decoration: underline;
 font-size: 2rem;
@@ -397,14 +407,14 @@ font-family: montserrat;
 margin-bottom: 1.5rem;
 }
 
-#fashion-week button li {
+#press-media button li {
 	list-style: none;
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
 	
 }
 
-#fashion-week button li a {
+#press-media button li a {
 	background-color: rgb(226, 38, 132);
 	opacity: 0.9;
 	transition: 0.3s;
@@ -420,7 +430,7 @@ margin-bottom: 1.5rem;
 	cursor: pointer;
 }
 
-#fashion-week button li a:hover {
+#press-media button li a:hover {
 	background-color: rgb(15, 235, 216);
 	color: rgb(15, 15, 15);
 	border: solid 0.20rem rgba(240, 231, 231, .3);
@@ -431,12 +441,12 @@ margin-bottom: 1.5rem;
 
 /*============================================================= 9. SUGGESTION SECTION =======================================================*/
 
-.client-montage {
+#client-montage {
 height: auto;
 background-color: #ece2e2e0;
 }
 
-.client-montage h1 {
+#client-montage h1 {
 
 color: rgb(32, 31, 31);
 text-align: center;
@@ -448,7 +458,7 @@ margin-bottom: 4rem;
 
 }
 
-.client-montage h2 {
+#client-montage h2 {
 
 color: rgb(32, 31, 31);
 text-align: center;
@@ -865,7 +875,7 @@ section {
 
 @media (max-width: 490px) {
 
-    .blog h3{
+    #blog h3{
         
         margin-left: 0.75rem;
         margin-right: 0.75rem;
@@ -894,12 +904,12 @@ section {
 
 @media (max-width: 47.81rem) {
 
-	.client-montage h1 {
+	#client-montage h1 {
 		font-size: 1.5rem;
 		
 		}
 		
-		.client-montage h2 {
+		#client-montage h2 {
 		font-family: square peg;
 		font-size: 1.75rem;
 		
@@ -910,7 +920,7 @@ section {
 
 @media (max-width: 21.875rem) {
 
-	.client-montage h2 {
+	#client-montage h2 {
 		font-family: square peg;
 		font-size: 1.4rem;
 		font-weight: bold;
